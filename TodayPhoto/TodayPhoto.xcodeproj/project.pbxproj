@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8346FFF429794DF2003847FC /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8346FFF329794DF2003847FC /* Colors.xcassets */; };
+		8346FFFA29794F6E003847FC /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346FFF929794F6E003847FC /* ColorExtension.swift */; };
 		83AE8FDA29694517009B968E /* TodayPhotoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE8FD929694517009B968E /* TodayPhotoApp.swift */; };
 		83AE8FDC29694517009B968E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE8FDB29694517009B968E /* ContentView.swift */; };
 		83AE8FDE29694518009B968E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83AE8FDD29694518009B968E /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		8346FFF329794DF2003847FC /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		8346FFF929794F6E003847FC /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		83AE8FD629694517009B968E /* TodayPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AE8FD929694517009B968E /* TodayPhotoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayPhotoApp.swift; sourceTree = "<group>"; };
 		83AE8FDB29694517009B968E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8346FFF729794F1C003847FC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8346FFF829794F5C003847FC /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8346FFF829794F5C003847FC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8346FFF929794F6E003847FC /* ColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		83AE8FCD29694517009B968E = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +100,7 @@
 			children = (
 				83AE8FE9296945E0009B968E /* Lifecycle */,
 				83AE8FEA29694605009B968E /* Views */,
+				8346FFF729794F1C003847FC /* Utils */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -173,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8346FFFA29794F6E003847FC /* ColorExtension.swift in Sources */,
 				83AE8FDC29694517009B968E /* ContentView.swift in Sources */,
 				83AE8FDA29694517009B968E /* TodayPhotoApp.swift in Sources */,
 			);
