@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "mapPinBlack.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
