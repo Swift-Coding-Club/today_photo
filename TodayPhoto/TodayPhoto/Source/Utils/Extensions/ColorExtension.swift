@@ -27,7 +27,7 @@ extension Color {
     static let primarPurple10: Color = Color("PrimaryPurple10")
     
     // System Color
-    static let ststemBlue: Color = Color("SystemBlue")
-    static let ststemRed: Color = Color("SystemRed")
+    static let systemBlue: Color = Color("SystemBlue")
+    static let systemRed: Color = Color("SystemRed")
 }
 
