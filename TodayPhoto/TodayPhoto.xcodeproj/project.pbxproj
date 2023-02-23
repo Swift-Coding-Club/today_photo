@@ -14,6 +14,7 @@
 		832A7872297C1C2A00FFD99C /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832A7871297C1C2A00FFD99C /* FontExtension.swift */; };
 		8346FFF429794DF2003847FC /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8346FFF329794DF2003847FC /* Colors.xcassets */; };
 		8346FFFA29794F6E003847FC /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346FFF929794F6E003847FC /* ColorExtension.swift */; };
+		835D33A729A7354A00DAECDC /* WriteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835D33A629A7354A00DAECDC /* WriteButtonView.swift */; };
 		83AE8FDA29694517009B968E /* TodayPhotoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE8FD929694517009B968E /* TodayPhotoApp.swift */; };
 		83AE8FDC29694517009B968E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE8FDB29694517009B968E /* ContentView.swift */; };
 		83AE8FDE29694518009B968E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83AE8FDD29694518009B968E /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 		832A7871297C1C2A00FFD99C /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
 		8346FFF329794DF2003847FC /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		8346FFF929794F6E003847FC /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		835D33A629A7354A00DAECDC /* WriteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteButtonView.swift; sourceTree = "<group>"; };
 		83AE8FD629694517009B968E /* TodayPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AE8FD929694517009B968E /* TodayPhotoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayPhotoApp.swift; sourceTree = "<group>"; };
 		83AE8FDB29694517009B968E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 			children = (
 				83D97BEB299D1C4200D78AEA /* MainView.swift */,
 				83D97BED299E500700D78AEA /* FeedView.swift */,
+				835D33A629A7354A00DAECDC /* WriteButtonView.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				835D33A729A7354A00DAECDC /* WriteButtonView.swift in Sources */,
 				8346FFFA29794F6E003847FC /* ColorExtension.swift in Sources */,
 				83AE8FDC29694517009B968E /* ContentView.swift in Sources */,
 				832A7872297C1C2A00FFD99C /* FontExtension.swift in Sources */,
